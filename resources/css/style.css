@@ -3,12 +3,24 @@ html {
   font-size: 18px;
 }
 
+body {
+  font-family: Helvetica;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background-color: black;
+  /*FOR TESTING*/
+  border: 1px solid pink;
+}
+
 /* Header section */
 header {
   background-color: black;
   width: 960px;
   display: flex;
   align-items: center;
+  /*FOR TESTING*/
+  border: 1px solid pink;
 }
 
 header img {
@@ -19,7 +31,6 @@ header img {
 
 header h4 {
   font-size: 1rem;
-  font-family: Helvetica;
   color: white;
   padding: 0 0.5rem;
 }
@@ -29,16 +40,22 @@ header h4 {
   width: 100%;
   height: 25rem;
   background-image: url("../images/moto.jpeg");
+  background-size: cover;
+  display: flex;
+  /*FOR TESTING*/
+  border: 1px solid pink;
+
 }
 
 #banner .text {
   background-color: black;
   width: 20rem;
+  /*FOR TESTING*/
+  border: 1px solid pink;
 }
 
 #banner .text h4,h1 {
   font-weight: bold;
-  font-family: Helvetica;
   padding-left: 3rem;
   color: white;
 }
@@ -56,6 +73,12 @@ header h4 {
 /* Nav section */
 nav {
   background-color: firebrick;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 960px;
+  /*FOR TESTING*/
+  border: 1px solid pink;
 }
 
 nav li {
@@ -64,4 +87,31 @@ nav li {
   text-align: right;
   color: white;
   padding: 0.75rem 0;
+}
+
+/* Content section */
+#products {
+  width: 960px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+figure {
+  display: flex;
+  flex-direction: column;
+  /*FOR TESTING*/
+  border: 1px solid pink;
+}
+
+figure img {
+  width: 30%;
+  height: 9rem;
+  padding: 2rem 0;
+}
+
+figcaption {
+  background-color: black;
+  text-align: center;
+  padding: 0.5rem 0;
 }
