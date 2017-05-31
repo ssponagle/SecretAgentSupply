@@ -10,9 +10,10 @@ body {
   border: 1px solid pink;
 }
 
-.sitecontainer {
+.container {
   width: 100%;
   margin: 0 auto;
+  background-color: black;
 }
 
 /* Header section */
@@ -74,15 +75,22 @@ header h4 {
 }
 
 /* Nav section */
+.red {
+  background-color: firebrick;
+}
+
 nav {
   background-color: firebrick;
+  width: 960px;
+  margin: 0 3rem auto;
+  /*FOR TESTING*/
+  border: 1px solid pink;
+}
+
+nav ul {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 960px;
-  margin: 0 auto;
-  /*FOR TESTING*/
-  border: 1px solid pink;
 }
 
 nav li {
@@ -94,6 +102,10 @@ nav li {
 }
 
 /* Content section */
+.white {
+  background-color: white;
+}
+
 #products {
   width: 960px;
   margin:0 auto;
@@ -105,12 +117,15 @@ nav li {
 figure {
   display: flex;
   flex-direction: column;
+  border: 4px solid black;
+  width: 30%;
   /*FOR TESTING*/
   border: 1px solid pink;
 }
 
 figure img {
   height: 9rem;
+  width: auto;
   padding: 2rem 0;
 }
 
@@ -118,5 +133,24 @@ figcaption {
   background-color: black;
   text-align: center;
   padding: 0.5rem 0;
+  color: white;
+}
+
+/* Info section */
+#info {
+  display: flex;
+  justify-content: space-between;
+  width: 960px;
+  margin-top: 3rem;
+  margin-bottom: 4rem;
+}
+
+.object {
+  width: 35%;
+}
+
+.box {
+  background-color: black;
+  padding: 1rem 2rem;
   color: white;
 }
