@@ -10,17 +10,37 @@ body {
   border: 1px solid pink;
 }
 
+/*Class container spans the whole width of the page*/
+
 .container {
   width: 100%;
   margin: 0 auto;
   background-color: black;
 }
 
+/*Class fixwidth sets objects to be centered with a width of 960px */
+.fixwidth {
+  width: 960px;
+  margin: 0 auto;
+}
+
+/*Color sections. Many objects with class container have a corresponding background color */
+.transparent {
+  background-color: transparent;
+}
+
+.red {
+  background-color: firebrick;
+}
+
+.white {
+  background-color: white;
+  margin-top: 3rem;
+}
+
 /* Header section */
 header {
   background-color: black;
-  width: 960px;
-  margin: 0 auto;
   display: flex;
   align-items: center;
   /*FOR TESTING*/
@@ -41,7 +61,6 @@ header h4 {
 
 /* Banner section */
 #banner {
-  width: 100%;
   height: 25rem;
   background-image: url("../images/moto.jpeg");
   background-size: cover;
@@ -75,14 +94,9 @@ header h4 {
 }
 
 /* Nav section */
-.red {
-  background-color: firebrick;
-}
 
 nav {
   background-color: firebrick;
-  width: 960px;
-  margin: 0 auto;
   /*FOR TESTING*/
   border: 1px solid pink;
 }
@@ -102,14 +116,8 @@ nav li {
 }
 
 /* Content section */
-.white {
-  background-color: white;
-  margin-top: 3rem;
-}
 
 #products {
-  width: 960px;
-  margin:0 auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -141,7 +149,6 @@ figcaption {
 #info {
   display: flex;
   justify-content: space-between;
-  width: 960px;
   margin-top: 3rem;
   margin-bottom: 4rem;
 }
