@@ -70,22 +70,23 @@ header h4 {
 
 }
 
+/*Black box in bnner section */
 #banner .text {
   background-color: black;
   width: 20rem;
+  margin-top: 9rem;
+  padding: 2rem 3rem;
   /*FOR TESTING*/
   border: 1px solid pink;
 }
 
 #banner .text h4,h1 {
   font-weight: bold;
-  padding-left: 3rem;
   color: white;
 }
 
 #banner h4 {
   font-size: 1rem;
-  padding-top: 2rem;
 }
 
 #banner h1 {
@@ -161,4 +162,11 @@ figcaption {
   background-color: black;
   padding: 1rem 2rem;
   color: white;
+}
+
+/*Footer section*/
+footer {
+  color: white;
+  text-align: left;
+  height: 5rem;
 }
