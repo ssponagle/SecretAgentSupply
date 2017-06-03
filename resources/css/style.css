@@ -36,6 +36,7 @@ body {
 .white {
   background-color: white;
   padding-top: 3rem;
+  padding-bottom: 4rem;
 }
 
 /* Header section */
@@ -169,4 +170,7 @@ footer {
   color: white;
   text-align: left;
   height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
 }
