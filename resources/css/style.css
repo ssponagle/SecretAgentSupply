@@ -4,11 +4,11 @@
     width: 100%;
   }
 
-  nav.mobile {
+  li.mobile {
     display: block;
   }
 
-  nav.desktop {
+  li.desktop {
     display: none;
   }
 
@@ -125,7 +125,7 @@ header h4 {
 
 /* Nav section */
 /*hide mobile nav in normal css */
-nav.mobile {
+li.mobile {
   display: none;
 }
 
