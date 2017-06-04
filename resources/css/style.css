@@ -1,7 +1,15 @@
 /* Tablet styles */
 @media only screen and (max-width: 1024) {
+  .fixwidth {
+    width: 100%;
+  }
+
   nav .mobile {
     display: inherit;
+  }
+
+  nav .desktop {
+    display: none;
   }
 
   figure {
