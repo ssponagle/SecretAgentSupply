@@ -5,7 +5,7 @@
   }
 
   nav .mobile {
-    display: inherit;
+    display: block;
   }
 
   nav .desktop {
@@ -36,11 +36,6 @@ body {
   width: 100%;
   /*FOR TESTING*/
   border: 1px solid pink;
-}
-
-/*hide mobile nav in normal css */
-.mobile {
-  dispaly: none;
 }
 
 /*Class container spans the whole width of the page*/
@@ -129,6 +124,10 @@ header h4 {
 }
 
 /* Nav section */
+/*hide mobile nav in normal css */
+nav .mobile {
+  display: none;
+}
 
 nav {
   background-color: firebrick;
