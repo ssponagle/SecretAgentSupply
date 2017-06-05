@@ -210,3 +210,48 @@ footer {
   }
 
 }
+
+/* Mobile styles */
+@media only screen and (max-width: 470px) {
+  #banner {
+    height: 15rem;
+  }
+
+  #banner text {
+    width: 100%;
+    margin-top: 10rem;
+    padding: 1rem 2rem;
+  }
+
+  #banner h4 {
+    font-size: 0.77rem;
+  }
+
+  #banner h1 {
+    font-size: 1rem;
+  }
+
+  figure.mobile {
+    display: none;
+  }
+
+  figure.smallscreen {
+    display: none;
+  }
+
+  figure {
+    width: 90%;
+  }
+
+  #info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-top: 3rem;
+    margin-bottom: 4rem;
+  }
+
+  .object {
+    width: 90%;
+  }
+}
