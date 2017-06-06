@@ -6,8 +6,6 @@ html {
 body {
   font-family: Helvetica;
   width: 100%;
-  /*FOR TESTING*/
-  border: 1px solid pink;
 }
 
 /*Class container spans the whole width of the page*/
@@ -44,8 +42,6 @@ header {
   background-color: black;
   display: flex;
   align-items: center;
-  /*FOR TESTING*/
-  border: 1px solid pink;
 }
 
 header img {
@@ -66,8 +62,6 @@ header h4 {
   background-image: url("../images/moto.jpeg");
   background-size: cover;
   display: flex;
-  /*FOR TESTING*/
-  border: 1px solid pink;
 
 }
 
@@ -77,8 +71,6 @@ header h4 {
   width: 20rem;
   margin-top: 9rem;
   padding: 2rem 3rem;
-  /*FOR TESTING*/
-  border: 1px solid pink;
 }
 
 #banner .text h4,h1 {
@@ -103,8 +95,6 @@ li.mobile {
 
 nav {
   background-color: firebrick;
-  /*FOR TESTING*/
-  border: 1px solid pink;
 }
 
 nav ul {
